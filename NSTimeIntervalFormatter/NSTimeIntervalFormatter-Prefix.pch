@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'NSTimeIntervalFormatter' target in the 'NSTimeIntervalFormatter' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+
+#endif
