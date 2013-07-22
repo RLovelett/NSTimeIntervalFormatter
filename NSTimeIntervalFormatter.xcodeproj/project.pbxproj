@@ -44,6 +44,7 @@
 /* Begin PBXFileReference section */
 		35A4B157112426B7D3E036DB /* NSTimeIntervalFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimeIntervalFormatter.m; sourceTree = "<group>"; };
 		35A4B37381FB3B5B58EFF4C2 /* NSTimeIntervalFormatterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTimeIntervalFormatterTests.h; sourceTree = "<group>"; };
+		35A4B4AF47B2F3EF49AAB730 /* NSTimeIntervalFormatterStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimeIntervalFormatterStyle.h; sourceTree = "<group>"; };
 		35A4B5228FDF5BBD8EB6A8FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35A4B526C75BA7089E7055F2 /* NSTimeIntervalFormatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimeIntervalFormatter-Prefix.pch"; sourceTree = "<group>"; };
 		35A4B584EB1E6953F9E1EF39 /* NSTimeIntervalFormatterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimeIntervalFormatterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +53,7 @@
 		35A4BAE0C2DD11CF9629C529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35A4BB3FE2B77BFA4C82E287 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		35A4BC384B51AED4EB9AC05B /* NSTimeIntervalFormatterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "NSTimeIntervalFormatterTests-Info.plist"; sourceTree = "<group>"; };
+		35A4BF22C8C5BC6F71170864 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		35A4BFB8F61979CF3D53537F /* NSTimeIntervalFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTimeIntervalFormatter.h; sourceTree = "<group>"; };
 		35A4BFE283ACA63CF24D6F11 /* libNSTimeIntervalFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSTimeIntervalFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -123,6 +125,8 @@
 				35A4BFBA7D5100A7F571C86E /* Supporting Files */,
 				35A4BFB8F61979CF3D53537F /* NSTimeIntervalFormatter.h */,
 				35A4B157112426B7D3E036DB /* NSTimeIntervalFormatter.m */,
+				35A4B4AF47B2F3EF49AAB730 /* NSTimeIntervalFormatterStyle.h */,
+				35A4BF22C8C5BC6F71170864 /* Constants.h */,
 			);
 			path = NSTimeIntervalFormatter;
 			sourceTree = "<group>";

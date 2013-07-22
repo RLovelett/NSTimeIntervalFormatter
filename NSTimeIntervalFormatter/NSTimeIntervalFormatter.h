@@ -7,7 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSTimeIntervalFormatterStyle.h"
 
-@interface NSTimeIntervalFormatter : NSObject
+@interface NSTimeIntervalFormatter : NSObject {
+    NSString* timeFormat;
+    NSRange timeFormatRange;
+
+    NSRegularExpression* hourRegex;
+    NSRegularExpression* minuteRegex;
+    NSRegularExpression* secondRegex;
+    NSRegularExpression* milliSecondRegex;
+
+    uint milliSecondMultiplier;
+}
+
+- (id) init;
+- (NSString*) stringFromInterval:(NSTimeInterval) interval;
+- (void) setFormat:(NSString *) format;
 
 @end
