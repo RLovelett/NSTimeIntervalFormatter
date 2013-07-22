@@ -48,6 +48,7 @@
 		35A4B5228FDF5BBD8EB6A8FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35A4B526C75BA7089E7055F2 /* NSTimeIntervalFormatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimeIntervalFormatter-Prefix.pch"; sourceTree = "<group>"; };
 		35A4B584EB1E6953F9E1EF39 /* NSTimeIntervalFormatterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimeIntervalFormatterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A4B75133C27265F990D892 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		35A4B8543BB8408102522B72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35A4B9B156CAD20565697E5A /* NSTimeIntervalFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimeIntervalFormatterTests.m; sourceTree = "<group>"; };
 		35A4BAE0C2DD11CF9629C529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 				35A4BF665B3DF8C4B22BE57B /* Frameworks */,
 				35A4B91C8F41A94CAADEADDE /* NSTimeIntervalFormatter */,
 				35A4B81A6FAD3349517C3B7F /* NSTimeIntervalFormatterTests */,
+				35A4B75133C27265F990D892 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
