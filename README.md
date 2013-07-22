@@ -1,4 +1,4 @@
-# NSTimeIntervalFormatter
+# NSTimeIntervalFormatter [![Build Status](https://travis-ci.org/RLovelett/NSTimeIntervalFormatter.png?branch=master)](https://travis-ci.org/RLovelett/NSTimeIntervalFormatter)
 
 Provide similar functionality as NSDateFormatter for NSTimeInterval.
 
