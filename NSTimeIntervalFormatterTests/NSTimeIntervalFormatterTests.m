@@ -11,10 +11,10 @@
 
 @implementation NSTimeIntervalFormatterTests
 
-- (void)setUp
+- (void) setUp
 {
     [super setUp];
-    
+
     // Set-up code here.
     formatsDictionary = [NSMutableDictionary dictionaryWithCapacity:16];
 
@@ -47,26 +47,27 @@
     testInterval = 36189.12345;
 }
 
-- (void)tearDown
+- (void) tearDown
 {
     // Tear-down code here.
-    
+
     [super tearDown];
 }
 
-- (void)testStringFromInterval
+- (void) testStringFromInterval
 {
     STFail(@"Unit tests are not implemented yet in NSTimeIntervalFormatterTests");
 }
 
-- (void)testSetFormat
+- (void) testSetFormat
 {
     NSTimeIntervalFormatter* formatter = [[NSTimeIntervalFormatter alloc] init];
-    for(NSString* format in formatsDictionary) {
+    for (NSString* format in formatsDictionary)
+    {
         NSString* expectedResult = [formatsDictionary objectForKey:format];
         [formatter setFormat:format];
         NSString* actualResult = [formatter stringFromInterval:testInterval];
-        Boolean matches = [actualResult isEqualToString: expectedResult];
+        Boolean matches = [actualResult isEqualToString:expectedResult];
         STAssertTrue(matches, @"[%1$@] Expected %2$@ to equal %3$@.", format, expectedResult, actualResult);
     }
 }

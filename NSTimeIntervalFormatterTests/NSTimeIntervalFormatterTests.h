@@ -8,9 +8,10 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface NSTimeIntervalFormatterTests : SenTestCase {
+@interface NSTimeIntervalFormatterTests : SenTestCase
+{
     NSTimeInterval testInterval;
-    NSMutableDictionary*formatsDictionary;
+    NSMutableDictionary* formatsDictionary;
 }
 
 @end

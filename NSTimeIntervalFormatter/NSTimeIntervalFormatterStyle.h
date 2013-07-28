@@ -9,10 +9,11 @@
 #import <Foundation/Foundation.h>
 
 
-typedef enum {
-    NSTimeIntervalFormatterNoStyle     = kCFDateFormatterNoStyle,
-    NSTimeIntervalFormatterShortStyle  = kCFDateFormatterShortStyle,
+typedef enum
+{
+    NSTimeIntervalFormatterNoStyle = kCFDateFormatterNoStyle,
+    NSTimeIntervalFormatterShortStyle = kCFDateFormatterShortStyle,
     NSTimeIntervalFormatterMediumStyle = kCFDateFormatterMediumStyle,
-    NSTimeIntervalFormatterLongStyle   = kCFDateFormatterLongStyle,
-    NSTimeIntervalFormatterFullStyle   = kCFDateFormatterFullStyle
+    NSTimeIntervalFormatterLongStyle = kCFDateFormatterLongStyle,
+    NSTimeIntervalFormatterFullStyle = kCFDateFormatterFullStyle
 } NSTimeIntervalFormatterStyle;

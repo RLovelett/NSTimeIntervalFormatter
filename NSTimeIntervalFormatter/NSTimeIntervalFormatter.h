@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "NSTimeIntervalFormatterStyle.h"
 
-@interface NSTimeIntervalFormatter : NSObject {
+@interface NSTimeIntervalFormatter : NSObject
+{
     NSString* timeFormat;
     NSRange timeFormatRange;
 
@@ -22,7 +23,9 @@
 }
 
 - (id) init;
+
 - (NSString*) stringFromInterval:(NSTimeInterval) interval;
-- (void) setFormat:(NSString *) format;
+
+- (void) setFormat:(NSString*) format;
 
 @end
